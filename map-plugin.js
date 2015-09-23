@@ -131,7 +131,5 @@
       // fit the map to show all the markers
       map.fitBounds(bounds);
       }
-
-      console.log(map.center);
   };
 }(this.mapPlugin = this.mapPlugin || {}, google));
