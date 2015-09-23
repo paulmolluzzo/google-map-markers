@@ -50,7 +50,3 @@ Last, include the initialization command `mapPlugin.createMap()` at the bottom o
   );
 </script>
 ```
-
-# License
-
-©2015 Paul Molluzzo — MIT License

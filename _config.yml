@@ -1,0 +1,7 @@
+name:           "How to Set Markers on Google Maps JS API v3"
+author:         Paul Molluzzo
+description:    An example plugin that uses the Google Maps API in JavaScript to put markers on a map.
+url:            http://paulmolluzzo.github.io/google-map-markers/
+twitter:        paulmolluzzo
+
+markdown:      redcarpet
