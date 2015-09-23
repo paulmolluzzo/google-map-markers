@@ -31,22 +31,26 @@ Last, include the initialization command `mapPlugin.createMap()` at the bottom o
 
 ```html
 <script>
-  mapPlugin.createMap('map-holder', 37.09024, -95.71289100000001, 
-                      [
-                        {
-                          lat:39.982094,
-                          long:-75.154679,
-                          infoContent:'<p>Something here <a href="https://google.com">Google</a></p>',
-                          maxWidth: 150
-                        },
-                        {
-                          lat:38.982094,
-                          long:-74.154679,
-                          infoContent:'<p>Something over here too <a href="https://google.com">Google</a></p>',
-                          maxWidth: 500
-                        }
-                      ],
-                      true
+  var markers = [
+                {
+                  lat:40.7412541,
+                  long:-74.0031284,
+                  infoContent:'<p>This is <a href="https://google.com">Google</a></p>',
+                  maxWidth: 150
+                },
+                {
+                  lat:40.7638337,
+                  long:-73.9729656,
+                  infoContent:'<p>This is <a href="https://apple.com">Apple</a></p>',
+                  maxWidth: 500
+                }
+              ];
+
+mapPlugin.createMap('map-holder',
+                    37.09024, -95.71289100000001,
+                    markers,
+                    true
+                    )
   );
 </script>
 ```
